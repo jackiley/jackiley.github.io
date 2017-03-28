@@ -1,0 +1,76 @@
+// Main css // 
+
+html {
+	font-family: 'Playfair Display', serif;
+}
+
+body {
+	background: azure; 
+	background: -webkit-linear-gradient(left, red , yellow);
+	background: -o-linear-gradient(right, red, yellow);
+	background: -moz-linear-gradient(right, red, yellow);
+	background: linear-gradient(white,gray);
+}
+
+header {
+	//background-color: black;
+	background-image: url("http://365psd.com/images/previews/d29/shards-geometric-pattern-image-2036shards_pattern.jpg");
+	background-attachment: fixed;
+	//background: linear-gradient(white, gray, azure);
+	box-shadow: inset 0 0 3em gray;
+	height: 350px;
+	color: white;
+	border-bottom: 2px solid gray;
+	text-align: center;
+}
+
+header > h1 {
+	position: relative;
+	top: 48px;
+	text-shadow: 0 0 1em black;
+	letter-spacing: 2px;
+}
+
+.navbar-default {
+	margin-bottom: 0px;
+	//background: linear-gradient(white, gray);
+}
+
+a {
+	color: white !important;
+}
+
+#img-placeholder {
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: gray;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	top: 60px;
+}
+
+#content-area {
+	background: linear-gradient(silver, white);
+	height: auto;
+	box-shadow: inset 0 0 0.5em black;
+	font-size: 1.4em;
+	padding: 18px 8px 18px 8px;
+}
+
+div > h3 {
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+#content-area-2 {
+	//height: 700px;
+	box-shadow: inset 0 0 1em gray;
+	background-color: gray;
+}
+
+#anchor {
+	height: 50px;
+	display: block;
+}
