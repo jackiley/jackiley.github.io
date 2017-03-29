@@ -1,5 +1,5 @@
 # jackiley.github.io
----
+
 # Welcome!
 
 Creating and maintaining this website will serve to facilitate my learning of front-end design, particularly with HTML, CSS, and JavaScript. 
