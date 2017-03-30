@@ -57,6 +57,11 @@ a {
 div > h3 {
 	text-align: center;
 	letter-spacing: 4px;
+	font-variant: small-caps;
+}
+
+div > h3:first-letter {
+	text-decoration: underline;
 }
 
 #content-area-2 {
