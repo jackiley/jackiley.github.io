@@ -64,13 +64,29 @@ div > h3:first-letter {
 	text-decoration: underline;
 }
 
-#content-area-2 {
-	//height: 700px;
-	box-shadow: inset 0 0 1em gray;
-	background-color: gray;
+footer {
+	background-color: black;
+	color: white;
+	height: 100px;
+	box-shadow: inset 0 0 0.5em gray;
+	padding: 10px 10px 10px 14px;
+	text-align: center;
+}
+
+#back-top {
+	color: gray;
+}
+
+#back-top:hover {
+	color: blue;
+	cursor: pointer;
 }
 
 #anchor {
 	height: 50px;
 	display: block;
+}
+
+.exps > li {
+	font-weight: bold;
 }
