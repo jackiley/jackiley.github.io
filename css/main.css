@@ -64,7 +64,7 @@ div > h3:first-letter {
 	text-decoration: underline;
 }
 
-footer {
+#footer {
 	background-color: black;
 	color: white;
 	height: 100px;
